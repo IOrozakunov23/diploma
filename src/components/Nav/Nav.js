@@ -7,7 +7,7 @@ function Nav() {
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/">Food's</a></li>
-        <li><a href="/">Dtink's</a></li>
+        <li><a href="/">Drink's</a></li>
       </ul>
     </nav>
   );
