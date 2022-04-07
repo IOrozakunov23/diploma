@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(52, 48, 45);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.Nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.Nav a {
+  display: block;
+  padding: .5rem 1rem;
+  color: white;
+  font-size: .8rem;
+  text-decoration: none;
+}
+.Nav a:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
