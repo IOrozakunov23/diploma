@@ -7,8 +7,8 @@ function Nav() {
       <Logo />
       <ul>
         <navItem url="/" >Home</navItem>
-        <navItem url="/" active>Food's</navItem>
-        <navItem url="/">Drinks</navItem>
+        <navItem url="/Foods">Foods</navItem>
+        <navItem url="/Drinks">Drinks</navItem>
       </ul>
     </nav>
   );
