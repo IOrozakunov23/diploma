@@ -6,15 +6,9 @@ function Nav() {
     <nav className="Nav">
       <Logo />
       <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/">Food's</a>
-        </li>
-        <li>
-          <a href="/">Drink's</a>
-        </li>
+        <navItem url="/" >Home</navItem>
+        <navItem url="/" active>Food's</navItem>
+        <navItem url="/">Drinks</navItem>
       </ul>
     </nav>
   );

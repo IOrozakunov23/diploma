@@ -13,18 +13,8 @@
   margin: 0;
   display: flex;
 }
-.Nav .Logo{
+.Nav .Logo {
   padding: 0 1.5rem;
   font-size: 1.6rem;
   font-weight: bold;
-}
-.Nav a {
-  display: block;
-  padding: .5rem 1rem;
-  color: white;
-  font-size: .8rem;
-  text-decoration: none;
-}
-.Nav a:hover {
-  background-color: rgba(255, 255, 255, .1);
 }
