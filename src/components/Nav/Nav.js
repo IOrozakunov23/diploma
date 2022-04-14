@@ -1,14 +1,16 @@
+import Logo from "../ui/Logo/Logo";
 import "./Nav.css";
-import Logo from "../ui/Logo";
+
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
   return (
     <nav className="Nav">
-      <Logo />
+      <Logo/>
       <ul>
-        <navItem url="/" >Home</navItem>
-        <navItem url="/Foods">Foods</navItem>
-        <navItem url="/Drinks">Drinks</navItem>
+        <NavItem url="/" >Home</NavItem>
+        <NavItem url="/Foods">Foods</NavItem>
+        <NavItem url="/Drinks">Drinks</NavItem>
       </ul>
     </nav>
   );

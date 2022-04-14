@@ -12,4 +12,8 @@
 }
 .Header h1 {
   margin: 0;
+  font-size: 3rem;
+}
+p{
+  font-size: 23px;
 }

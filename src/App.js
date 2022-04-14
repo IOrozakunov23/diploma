@@ -1,11 +1,11 @@
-import { Router } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
+import Nav from "./components/Nav/Nav.js";
 
-import Home from "./pages/Home";
-import Home from "./pages/Home";
-import Home from "./pages/Home";
+import Home from "./components/pages/Home";
+import Foods from "./components/pages/Foods";
+import Drinks from "./components/pages/Drinks";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -14,16 +14,13 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/Drinks" element={<Drinks />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Foods" element={<Foods />} />
+        <Route path="/Drinks" element={<Drinks />} />
       </Routes>
-    
-      <Footer />
-      <Drinks />
-      <Foods />
 
-      <Home />
+      <Drinks />
+      <Footer />
     </div>
   );
 }
