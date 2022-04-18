@@ -6,18 +6,20 @@ import Home from "./components/pages/Home";
 import Foods from "./components/pages/Foods";
 import Drinks from "./components/pages/Drinks";
 import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/layout";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Foods" element={<Foods />} />
-        <Route path="/Drinks" element={<Drinks />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Foods" element={<Foods />} />
+          <Route path="/Drinks" element={<Drinks />} />
+        </Routes>
+      </Layout>
 
       <Drinks />
       <Footer />
