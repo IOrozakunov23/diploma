@@ -6,12 +6,14 @@ import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
     <nav className="Nav">
-      <Logo/>
-      <ul>
-        <NavItem url="/" >Home</NavItem>
-        <NavItem url="/Foods">Foods</NavItem>
-        <NavItem url="/Drinks">Drinks</NavItem>
-      </ul>
+      <div className="container">
+        <Logo />
+        <ul>
+          <NavItem url="/">Home</NavItem>
+          <NavItem url="/Foods">Foods</NavItem>
+          <NavItem url="/Drinks">Drinks</NavItem>
+        </ul>
+      </div>
     </nav>
   );
 }
