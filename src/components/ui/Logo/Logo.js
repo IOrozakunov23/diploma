@@ -1,7 +1,9 @@
 import "./Logo.css";
 
 function Logo() {
-  return <div className="logo">Kyrgyz national dishes</div>;
+  return (
+    <div className="Logo">Kyrgyz national dishes</div>
+  );
 }
 
 export default Logo;
