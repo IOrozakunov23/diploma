@@ -5,7 +5,7 @@ function Drinks() {
       
         <>
           <Header title="Welcome to Kyrgyz National Foods!" image={headerImage}>
-            aaaa
+          Kyrgyzstan is a country where a nomadic and sedentary culture united at the crossroads of the Great Silk Road. 
           </Header>
         </>
   );

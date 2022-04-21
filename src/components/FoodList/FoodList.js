@@ -3,7 +3,7 @@ import classes from "./FoodList.module.css";
 
 function FoodList({ foods }) {
   const foodItems = Object.keys(foods).map(id => (
-    <FoodItem key={id} product={foods[id]} />
+    <FoodItem key={id} food={foods[id]} />
   ));
 
   return (

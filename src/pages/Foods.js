@@ -6,28 +6,28 @@ import foodImage from "../assets/food.jpg";
 
 function Foods() {
   const foods = {
-    hazelnut: {
+    beshbarmak: {
       image: foodImage,
       path: "/",
       title: "Beshbarmak",
       price: 12,
     },
-    darkRoast: {
+    kuurdak: {
       image: foodImage,
       path: "/",
       title: "Kuurdak",
       price: 14,
     },
-    houseBlend: {
+    boorsok: {
       image: foodImage,
       path: "/",
       title: "Boorsok",
       price: 18,
     },
-    lightRoast: {
+    plov: {
       image: foodImage,
       path: "/",
-      title: "Byzhy",
+      title: "Plov",
       price: 20,
     }
   };
@@ -37,7 +37,7 @@ function Foods() {
       <Header
         title="Kyrgyz dishes"
         image={headerImage}>
-        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
+       Kyrgyzstan is a country where a nomadic and sedentary culture united at the crossroads of the Great Silk Road.
       </Header>
 
       <FoodList foods={foods} />
