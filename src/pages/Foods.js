@@ -24,13 +24,26 @@ function Foods() {
       title: "Boorsok",
       price: 18,
     },
-    plov: {
+    plove: {
       image: foodImage,
       path: "/",
-      title: "Plov",
+      title: "Plove",
       price: 20,
+    },
+    Shorpo: {
+      image: foodImage,
+      path: "/",
+      title: "Shorpo",
+      price: 25,
+    },
+    Samsa: {
+      image: foodImage,
+      path: "/",
+      title: "Samsa",
+      price: 5,
     }
   };
+  
 
   return (
     <>
