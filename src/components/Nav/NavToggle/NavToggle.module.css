@@ -1,0 +1,22 @@
+.NavToggle {
+  background-image: url("https://img.icons8.com/windows/512/menu--v1.png");
+ color: black;
+  display: none;
+
+  padding: 1rem 1.5rem;
+  min-height: 61px;
+
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+
+  background-color: transparent;
+  border: none;
+}
+
+@media (max-width: 600px) {
+  .NavToggle {
+    display: inline-block;
+  }
+}
