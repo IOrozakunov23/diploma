@@ -1,21 +1,21 @@
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav.js";
-
 import Home from "./pages/Home";
-import Foods from "./pages/Foods";
+import Products from "./pages/Products";
 import Drinks from "./pages/Drinks";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/layout";
+import Product from "./pages/Product";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <div className="App">
-      <Layout>
+       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Foods" element={<Foods />} />
+          <Route path="/Foods" element={<Products />} />
           <Route path="/Drinks" element={<Drinks />} />
+          <Route path="/products/:productId" element={<Product />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </div>

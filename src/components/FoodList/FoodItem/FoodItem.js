@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import classes from "./FoodItem.module.css";
 
-function FoodItem({ food }) {
+function FoodItem({ product  }) {
   return (
-    <div className={classes.FoodItem}>
-      <img src={food.image} />
-      <Link to={food.path}>{food.title}</Link>
-      <div className={classes.price}>${food.price}</div>
+    <div className={classes.ProductItem}>
+      <img src={product.image} alt={product.title} />
+      <Link to={"/foods/" + product.productId}>{product.title}</Link>
+      <div className={classes.price}>${product.price}</div>
     </div>
   );
 }

@@ -1,12 +1,16 @@
 import FoodItem from "./FoodItem/FoodItem";
 import classes from "./FoodList.module.css";
 
-function FoodList({ foods }) {
-  const foodItems = Object.keys(foods).map((id) => (
-    <FoodItem key={id} food={foods[id]} />
+function FoodList({ products }) {
+  const productItems = products.map(product => (
+    <FoodItem key={product.productId} product={product} />
   ));
 
-  return <div className={classes.FoodList}>{foodItems}</div>;
+  return (
+    <div className={classes.ProductList}>
+      {productItems}
+    </div>
+  );
 }
 
 export default FoodList;
