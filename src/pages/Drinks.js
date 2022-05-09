@@ -10,4 +10,4 @@ function Drinks() {
     </>
   );
 }
-export default Home;
+export default Drinks;
