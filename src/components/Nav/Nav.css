@@ -1,16 +1,12 @@
 .Nav {
-  background-color: rgba(110, 49, 2, 0.851);
-  color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-}
-.Nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.Nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
+}
+@media (max-width: 620px) {
+  .Nav {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
 }

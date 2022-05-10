@@ -8,21 +8,21 @@
   object-fit: cover;
   object-position: center;
   height: 500px;
-margin: 2px 0;
+  margin: 0 2rem 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position: absolute;
-  bottom: -3rem;
-  right: 2rem;
+  text-align: center;
   max-width: 500px;
-  margin-left: 2rem;
-
-  background-color: white;
+bottom: 10rem;
   padding: 0 2rem 0;
   border-radius: 2rem;
   font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  margin: 0 auto;
+  color: white;
+  left: 5rem;
+  
 }
 .Header h1 {
   font-size: 2rem;
