@@ -16,7 +16,7 @@
   transition: transform .3s;
 }
 .Drawer .backdrop {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
 
   position: fixed;
   top: 0;

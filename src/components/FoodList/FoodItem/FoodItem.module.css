@@ -20,7 +20,7 @@
   right: 1.5rem;
   z-index: 1;
   
-  background-color: rgba(110, 49, 2, 0.851);
+  background-color: rgb(63, 29, 5);
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
@@ -37,7 +37,7 @@
   z-index: 3;
   right: 0;
   
-  background-color: rgba(110, 49, 2, 0.851);
+  background-color: rgb(209, 121, 59);
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
