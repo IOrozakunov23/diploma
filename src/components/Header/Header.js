@@ -12,8 +12,5 @@ function Header({ image, title, children }) {
     </header>
   );
 }
-{
-  /* <h1>Kyrgyz dishes</h1>
-      <p>This is an internet shop</p> */
-}
+
 export default Header;
