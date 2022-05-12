@@ -1,8 +1,8 @@
 .Drawer .content {
   padding: 1rem 0;
-  background-color: rgba(110, 49, 2, 0.851);
+  background-color: #3b2702;
   color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px #0000004d;
   width: 260px;
   overflow: hidden;
 
@@ -14,6 +14,9 @@
 
   transform: translateX(-300px);
   transition: transform .3s;
+}
+.Drawer ul {
+  list-style-type: none;
 }
 .Drawer .backdrop {
   background-color: rgba(0, 0, 0, 0.3);

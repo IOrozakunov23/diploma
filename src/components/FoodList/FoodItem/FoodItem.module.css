@@ -1,48 +1,47 @@
 .FoodItem img {
-  width: 100%;
-  object-fit: cover;
+  width: 270px;
   object-position: center;
-
+height: 250px;
   border-radius: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  z-index: 2;
-}
-.FoodItem {
-  position: relative;
-  flex: 0 0 30%;
-  margin-bottom: 5rem;
   margin-top: 1rem;
 }
+.FoodItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    margin-bottom: 5rem;
+  margin-top: 1rem;
+  border: 1px solid #000;
+  width: 300px;
+  height: 400px;
+  /* margin-right: 1rem;
+  margin-left: 1rem; */
+  background-color: white;
+}
+
 .FoodItem a {
-  position: absolute;
-  bottom: -3.5rem;
+  /* position: absolute;
+  bottom: 0.5rem;
   left: 1.5rem;
   right: 1.5rem;
-  z-index: 1;
+  z-index: 1; */
   
-  background-color: rgb(63, 29, 5);
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin-top: 1rem;
   padding: .8rem 1rem 1.2rem;
   text-align: center;
-  border-radius: 1.5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  text-decoration: none;
 }
 .FoodItem .price {
-  position: absolute;
-  top: -1.5rem;
-  z-index: 3;
-  right: 0;
-  
-  background-color: rgb(209, 121, 59);
-  color: white;
+  color: red;
   font-weight: bold;
   font-size: 1.3rem;
   padding: 1rem;
   text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }

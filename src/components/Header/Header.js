@@ -1,7 +1,7 @@
 import "./Header.css";
-// import headerImage from "../../assets/food.jpg";
+// import headerImage from "../../assets/header2.jpg";
 
-function Header({ image, title, children }) {
+function Header({image,  title, children }) {
   return (
     <header className="Header">
       <img src={image} alt="title" />

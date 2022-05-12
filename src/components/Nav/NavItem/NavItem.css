@@ -6,13 +6,12 @@
   text-decoration: none;
   border-bottom: 3px solid transparent;
 }
-.NavItem a.active {
+/* .NavItem a.active {
   border-color: white;
-}
+} */
 .NavItem a:hover {
   color: aliceblue;
-  border-color: white;
-  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgb(180, 175, 175);
 }
 @media (max-width: 620px) {
   .NavItem a {

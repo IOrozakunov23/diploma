@@ -1,5 +1,8 @@
 .FoodList {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  background-color: #3b2702;
+  max-width: 100%;
+  margin-bottom: 2rem;
 }

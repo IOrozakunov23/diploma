@@ -7,7 +7,7 @@ function FoodList({ products }) {
   ));
 
   return (
-    <div className={classes.ProductList}>
+    <div className={classes.FoodList}>
       {productItems}
     </div>
   );

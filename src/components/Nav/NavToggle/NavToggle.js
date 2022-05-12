@@ -1,8 +1,8 @@
 import classes from "./NavToggle.module.css";
 
-function NavToggle() {
+function NavToggle({ callback }) {
   return (
-    <button className={classes.NavToggle}>
+    <button onClick={callback} className={classes.NavToggle}>
       &nbsp;
     </button>
   );
