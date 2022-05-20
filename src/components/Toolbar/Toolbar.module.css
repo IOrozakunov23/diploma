@@ -1,6 +1,6 @@
 .Toolbar {
-  background-color: #3b2702;
-  color: white;
+  background-color: white;
+  color: rgb(88, 88, 88);
   box-shadow: 0 0 10px rgba(210, 94, 17, 0.3);
 }
 .Toolbar .container {

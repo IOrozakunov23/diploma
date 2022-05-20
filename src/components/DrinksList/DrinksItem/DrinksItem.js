@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import classes from "./FoodItem.module.css";
+import classes from "./DrinksItem.module.css";
 
-function FoodItem({ product  }) {
+function DrinksItem({ product  }) {
   return (
-    <div className={classes.FoodItem}>
+    <div className={classes.DrinksItem}>
       <img src={product.image} alt={product.title} />
       <Link to={"/products/" + product.productId}>{product.title}</Link>
       <div className={classes.price}>${product.price}</div>
@@ -11,4 +11,4 @@ function FoodItem({ product  }) {
   );
 }
 
-export default FoodItem;
+export default DrinksItem;

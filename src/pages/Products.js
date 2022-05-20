@@ -7,9 +7,9 @@ import Header from "../components/Header/Header";
     return (
       <>
         <Header
-          title="Kyrgyz dishes"
+          title="Pizza"
           image={headerImage}>
-          Kyrgyzstan is a country where a nomadic and sedentary culture united at the crossroads of the Great Silk Road.
+          In Italy, pizza served in a restaurant is presented unsliced, and is eaten with the use of a knife and fork. In casual settings, however, it is cut into wedges to be eaten while held in the hand.
         </Header>
   
         <FoodList products={getProducts()} />

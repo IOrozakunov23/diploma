@@ -1,7 +1,7 @@
 .NavItem a {
   display: block;
   padding: 1rem 1rem;
-  color: white;
+  color: rgb(61, 59, 59);
   font-size: 1rem;
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -10,8 +10,7 @@
   border-color: white;
 } */
 .NavItem a:hover {
-  color: aliceblue;
-  border-color: rgb(180, 175, 175);
+  color: red;
 }
 @media (max-width: 620px) {
   .NavItem a {

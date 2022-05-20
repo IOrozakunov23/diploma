@@ -1,10 +1,21 @@
 .Footer {
-  background-color: #3b2702;
+  background-color: #000000;
   text-align: center;
   color: white;
   width: 100%;
-  height: 100px;
+  height: 300px;
 }
-.Footer .conteiner{
-  margin-top: 1rem;
+.Footer ul{
+ padding-top: 10rem;
 }
+.Footer ul a {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+} 
+.Footer p{
+  font-size: 16px;
+  font-weight: bold;
+  width: 470px;
+  margin: 0 auto;
+} 

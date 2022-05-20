@@ -1,11 +1,11 @@
-.FoodItem img {
+.DrinksItem img {
   width: 270px;
   object-position: center;
 height: 250px;
   border-radius: 2rem;
   margin-top: 1rem;
 }
-.FoodItem {
+.DrinksItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ height: 250px;
   background-color: white;
 }
 
-.FoodItem a {
+.DrinksItem a {
   /* position: absolute;
   bottom: 0.5rem;
   left: 1.5rem;
@@ -36,7 +36,7 @@ height: 250px;
   text-align: center;
   text-decoration: none;
 }
-.FoodItem .price {
+.DrinksItem .price {
   color: red;
   font-weight: bold;
   font-size: 1.3rem;
