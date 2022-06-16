@@ -1,15 +1,15 @@
 .Toolbar {
-  background-color: white;
-  color: rgb(88, 88, 88);
-  box-shadow: 0 0 10px rgba(210, 94, 17, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 .Toolbar .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 987px;
+  max-width: 987px; 
   margin: 0 auto;
   padding: 0 1rem;
+  z-index: 6;
 }
 .Toolbar ul {
   display: flex;

@@ -3,7 +3,7 @@
   text-align: center;
   color: white;
   width: 100%;
-  height: 300px;
+  height: 100px;
 }
 /* .Footer ul{
  padding-top: 10rem;
@@ -18,4 +18,5 @@
   font-weight: bold;
   width: 470px;
   margin: 0 auto;
+  padding-top: 15px;
 } 

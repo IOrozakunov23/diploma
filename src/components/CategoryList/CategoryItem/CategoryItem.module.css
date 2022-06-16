@@ -1,11 +1,11 @@
-.DrinksItem img {
+.CategoryItem img {
   width: 270px;
   object-position: center;
-height: 200px;
+height: 250px;
   border-radius: 2rem;
   margin-top: 1rem;
 }
-.DrinksItem {
+.CategoryItem {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ height: 200px;
   background-color: white;
 }
 
-.DrinksItem a {
+.CategoryItem a {
   /* position: absolute;
   bottom: 0.5rem;
   left: 1.5rem;
@@ -35,11 +35,4 @@ height: 200px;
   padding: .8rem 1rem 1.2rem;
   text-align: center;
   text-decoration: none;
-}
-.DrinksItem .price {
-  color: red;
-  font-weight: bold;
-  font-size: 1.3rem;
-  padding: 1rem;
-  text-align: center;
 }
