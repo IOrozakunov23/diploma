@@ -1,6 +1,4 @@
-import colsImage from "../assets/cols.jpg";
-import spriteImage from "../assets/sprite.jpg";
-import fantaImage from "../assets/fanta.jpg";
+
 const categories = [
   // {
   //   image: colsImage,
