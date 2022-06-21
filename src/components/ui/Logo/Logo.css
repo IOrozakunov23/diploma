@@ -1,4 +1,16 @@
-.Logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-} 
+.Logo{
+  display: flex;
+  align-items: center;
+  margin-right: 65rem;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+.Logo img{
+  height: 3rem;
+  margin: .5rem;
+  cursor: pointer;
+}
+.Text{
+  color: black;
+  font-weight: 900;
+}

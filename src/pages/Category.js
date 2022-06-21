@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
 import { getCategory } from "../data/categories";
-import { getProducts } from "../data/products";
-import FoodList from "../components/FoodList/FoodList";
 
 function Category() {
   const params = useParams();
@@ -19,8 +17,6 @@ function Category() {
         image={category.image}>
         {category.desciption}
       </Header>
-
-      <FoodList products={getProducts(category.categoryId)} />
     </>
   );
 }

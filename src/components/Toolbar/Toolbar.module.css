@@ -1,5 +1,5 @@
 .Toolbar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
   color: white;
 }
 .Toolbar .container {
@@ -14,7 +14,9 @@
 .Toolbar ul {
   display: flex;
   list-style-type: none;
+  margin-left: 2.8rem;
 }
+
 @media (max-width: 620px) {
   .Toolbar ul {
     display: none;

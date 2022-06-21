@@ -4,8 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/layout";
 import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
-import Categories from "./pages/Products.js";
-import Category from "./pages/Products.js";
+import Categories from "./pages/Categories.js";
+import Category from "./pages/Category.js";
 
 function App() {
   return (
