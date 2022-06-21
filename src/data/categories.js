@@ -1,10 +1,9 @@
 import colsImage from "../assets/colss.jpg";
 import spriteImage from "../assets/spritee.jpg";
 import fantaImage from "../assets/fant.jpg";
-import cocteilsImage from "../assets/drink1.jpg";
-import cocteils1Image from "../assets/drink2.jpg";
+import cocteilsImage from "../assets/drink.jpg";
+import cocteils1Image from "../assets/drink1.jpg";
 import cocteils2Image from "../assets/drink3.jpg";
-import { trackForMutations } from "@reduxjs/toolkit/dist/immutableStateInvariantMiddleware";
 const categories = [
   {
     image: colsImage,
