@@ -1,14 +1,14 @@
 .Header {
-  position: relative;
+  display: flex;
+  margin: 15px;
 }
 
 
 .Header img {
-  width: 100%;
+  width: 700px;
   height: 80vh;
   min-height: 380px;
-  object-fit: cover;
-  object-position: center;
+
 
 
   margin: 0 auto;
@@ -17,7 +17,7 @@
 
 }
 .Header section {
-  position: absolute;
+  /* position: absolute;
   max-width: 500px;
   bottom: 9rem;
   padding: 0 3rem 0;
@@ -26,10 +26,14 @@
   margin: 0 auto;
   color: rgb(255, 255, 255);
   left: 5rem;
-  font-weight: bold;
-  
+  font-weight: bold; */
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
 }
 .Header h1 {
   font-size: 2rem;
-  width: 400px;
+}
+.Header p{
+  width: 300px;
 }
