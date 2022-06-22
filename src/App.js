@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories.js";
 import Category from "./pages/Category.js";
 
+
 function App() {
   return (
     <div className="App">
