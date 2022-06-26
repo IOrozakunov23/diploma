@@ -11,7 +11,6 @@ function Toolbar({ toggleDrawer }) {
         <Logo />
         <Nav />
         <NavToggle callback={toggleDrawer} />
-        <CartLink />
       </div>
     </nav>
   );
