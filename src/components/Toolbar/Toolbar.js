@@ -1,4 +1,4 @@
-import CartLink from "../CartLink/CartLink";
+
 import Nav from "../Nav/Nav";
 import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
