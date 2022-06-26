@@ -8,6 +8,8 @@ function Nav() {
       <NavItem url="/products">All products</NavItem>
       <NavItem url="/categories">Drink's</NavItem>
       <NavItem url="/">About</NavItem>
+      <NavItem url="/Cart">Cart</NavItem>
+
     </ul>
   );
 }
