@@ -11,6 +11,7 @@ export default function CartItem({ product, actions, quantity }) {
       <div className={classes.image}>
         <img src={product.image} alt={product.title} />
       </div>
+      <div className={classes.div}>
       <div className={classes.title}>
         <Link to="">{product.title}</Link>
       </div>
@@ -22,6 +23,7 @@ export default function CartItem({ product, actions, quantity }) {
       <div className={classes.subtotal}>
         ${product.price * quantity}
         {actions ? <button onClick={() => dispatch(remove(product.productId))}>Delete</button> : null}
+      </div>
       </div>
     </div>
   )
