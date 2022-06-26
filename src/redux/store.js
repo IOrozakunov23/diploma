@@ -7,4 +7,10 @@ const store = configureStore({
   }
 });
 
+store.subscribe(() => {
+  localStorage.setItem('cartItems', JSON.stringify(
+    store.getState().cart.items
+  ));
+});
+
 export default store;
