@@ -49,7 +49,7 @@ function Checkout() {
         <hr />
         Total: ${total}
 
-        <form onSubmit={onCheckout}>
+        <form className="table" onSubmit={onCheckout}>
           <label>
             First name:
             <input type="text" name="firstName" required />
