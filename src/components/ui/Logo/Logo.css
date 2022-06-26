@@ -1,7 +1,6 @@
 .Logo{
   display: flex;
   align-items: center;
-  margin-right: 65rem;
   justify-content: flex-start;
   padding-top: 1rem;
 }
@@ -13,4 +12,8 @@
 .Text{
   color: black;
   font-weight: 900;
+}
+@media(max-width:620){
+  .Logo{
+  }
 }
