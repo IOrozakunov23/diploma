@@ -1,3 +1,44 @@
 .CartItem {
   display: flex;
 }
+.div{
+  border-radius: 50px;
+  text-align: center;
+  padding: 5rem;
+  margin-right: auto;
+}
+.quantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.quantity div{
+  background-size: cover;
+  margin: 15px;
+  margin-top: 0;
+}
+.quantity div:hover{
+  background-color: white;
+  border-radius: 50%;
+}
+.subtotal{
+padding-top: 1rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+@media(max-width:694px){
+  .CartItem{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    margin: 0 auto;
+  }
+  .div{
+    margin: 0 auto;
+  }
+}
