@@ -15,3 +15,26 @@ code {
   margin: 0 auto;
   padding: 0 1rem;
 }
+.table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  margin: 0 auto;
+}
+.table input{
+  width: 15rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: .8rem;
+  border: 2px solid  rgb(20, 20, 20);
+  font-size: 1.3rem; 
+}
+.table input::placeholder{
+  font-size: 1.5rem;
+  color: rgb(71, 73, 75);
+}
+h1{
+  color: rgb(28, 28, 29);
+}
+
