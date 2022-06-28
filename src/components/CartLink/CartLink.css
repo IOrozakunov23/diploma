@@ -1,3 +1,17 @@
-.CartLink{
-  font-size: 50px; 
+.Cart  {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #FE5F1E;
+  border-radius: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+.Cart img{
+  cursor: pointer;
+  height: 1.5rem;
 }
