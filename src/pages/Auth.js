@@ -9,8 +9,7 @@ export default function Auth() {
 
   function onAuthStart(event) {
     event.preventDefault();
-
-    const formData = new FormData(event.target);
+     const formData = new FormData(event.target);
     dispatch(start({
       email: formData.get('email'),
       password: formData.get('password'),
