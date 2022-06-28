@@ -1,15 +1,17 @@
 .Toolbar {
-  background-color: white;
-  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+  font-size: 1.7rem;
+  box-shadow:  0 0 10px rgba(0, 0, 0, .5);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
-.Toolbar .container {
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  max-width: 987px; 
+.container{
+  display: flex;
+  align-items: flex-end;
   margin: 0 auto;
-  padding: 0 1rem;
-  z-index: 6;
 }
 .Toolbar ul {
   display: flex;

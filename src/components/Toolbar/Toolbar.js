@@ -1,4 +1,4 @@
-
+import CartLink from "../CartLink/CartLink";
 import Nav from "../Nav/Nav";
 import NavToggle from "../Nav/NavToggle/NavToggle";
 import Logo from "../ui/Logo/Logo";
@@ -9,8 +9,11 @@ function Toolbar({ toggleDrawer }) {
     <nav className={classes.Toolbar}>
       <div className={classes.container}>
         <Logo />
+        <nav>
         <Nav />
-        <NavToggle callback={toggleDrawer} />
+        </nav>
+        <NavToggle callback={toggleDrawer} /> 
+        <CartLink />
       </div>
     </nav>
   );
