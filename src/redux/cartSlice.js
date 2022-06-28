@@ -7,6 +7,7 @@ export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI
   return response.data;
 });
 
+
 const cartSlice = createSlice({
   name: "cart",
   initialState: {

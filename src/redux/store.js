@@ -14,7 +14,10 @@ store.subscribe(() => {
     store.getState().cart.items
   ));
 
-  console.log(store.getState().auth);
+  const auth = store.getState().auth;
+  if (auth.localId !== null) {
+    localStorage.setItem('auth', JSON.stringify(auth));
+  }
 });
 
 export default store;
