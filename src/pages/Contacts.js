@@ -1,13 +1,15 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/fanta.jpg";
+import headerImage from "../assets/contact.webp";
 
 function Contacts() {
   return (
     <>
       <Header
-        title="Order your coffee!"
+        title="About"
         image={headerImage}>
-        The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.[5] Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4.0% caffeine.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo, quas laudantium accusamus consequuntur ipsa, eius cumque dolorem doloribus eos dolore in illo mollitia repellat modi nam nihil aliquam qui!
+        <hr></hr>
+        Phone:+996 123 456 678
       </Header>
     </>
   );
