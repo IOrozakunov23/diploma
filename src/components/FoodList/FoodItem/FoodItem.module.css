@@ -25,6 +25,7 @@ height: 250px;
   right: 1.5rem;
   z-index: 1; */
   
+  
   color: black;
   font-weight: bold;
   font-size: 1.3rem;
@@ -37,9 +38,11 @@ height: 250px;
   text-decoration: none;
 }
 .FoodItem .price {
-  color: red;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  background-color: rgb(252, 141, 67);
+  border-radius: 35%;
 }
