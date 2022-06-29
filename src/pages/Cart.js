@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import image from "../assets/header.jpg";
+import image from "../assets/cart.jpg";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
 import { Link } from "react-router-dom";
 
@@ -14,7 +14,7 @@ function Cart() {
 
       <CartDisplay actions />
 
-      <Link to="/checkout">Checkout</Link>
+      <Link className="LinkCheckout" to="/checkout">Checkout</Link>
     </>
   );
 }
