@@ -11,7 +11,7 @@ export default function CartLink() {
   return (
     <NavLink className={classes.Cart} to="/cart"> 
     Cart ({number})
-    <img
+    <img alt="cart"
         src={cart}
       />
     </NavLink>
