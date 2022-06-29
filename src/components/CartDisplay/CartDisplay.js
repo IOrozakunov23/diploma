@@ -30,7 +30,9 @@ function CartDisplay({ actions }) {
     <div class={classes.CartDisplay}>
       {output}
       <hr />
-      Total: ${total}
+      <span className="Carttitle total">
+        Total: <span className="Cartprice">${total}</span>
+      </span> 
     </div>
   );
 }
