@@ -2,7 +2,7 @@ import axios from "axios";
 
 const { createSlice, createAsyncThunk } = require("@reduxjs/toolkit");
 
-const key = "AIzaSyDCoBep8DiHrKiE7DsV7PIyuQjmd1swQrQ";
+const key = "AIzaSyC0_veT3pgZAVnKmiUe7y_qUHLrXqXH4Ng";
 const signInUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=" + key;
 const signUpUrl = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" + key;
 
