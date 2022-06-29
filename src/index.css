@@ -78,4 +78,123 @@ h1{
 .Auth button:disabled {
   opacity: .5;
 }
+.Header{
+  
+  
+}
 
+.Checkout {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.CARTS label input {
+  /* max-width: 300px; */
+  width: 250px;
+  height: 30px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #000;
+  border: none;
+  font-family: inherit;
+  border: 1px solid #747474fd;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.Checkout label {
+  display: block;
+  padding: 10px 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  margin: 20px;
+}
+.btn-checkout {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+
+
+  text-align: center !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: .5s;
+  margin: 1rem auto;
+  border-radius: 50px;
+  padding: 8px;
+  cursor: pointer;
+  background: transparent;
+  color: #FE5F1E !important;
+  border: 1px solid #FE5F1E;
+}
+
+.btn-checkout:hover {
+  color: white !important;
+  background-color: #FE5F1E;
+}
+.LinkCheckout {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #FE5F1E;
+
+  text-align: center !important;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: .5s;
+  margin: 1rem auto;
+  border-radius: 50px;
+  padding: 8px;
+  cursor: pointer;
+  background: transparent;
+  color: #FE5F1E !important;
+  border: 1px solid #FE5F1E;
+}
+
+.Carttitle {
+  text-decoration: none;
+  display: inline-block;
+  
+  transition: all 0.1s ease-in-out;
+  font-size: 18px;
+  color: #1a0d01;
+  /* font-weight: 700; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.Cartprice {
+  
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #f0542c;
+  font-family: "Montserrat", sans-serif;
+
+  padding: 0 0 0 .8rem;
+}
+.total {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
