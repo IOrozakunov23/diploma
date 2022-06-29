@@ -5,6 +5,7 @@ function Contacts() {
   return (
     <>
       <Header
+       className="about"
         title="About"
         image={headerImage}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo, quas laudantium accusamus consequuntur ipsa, eius cumque dolorem doloribus eos dolore in illo mollitia repellat modi nam nihil aliquam qui!
