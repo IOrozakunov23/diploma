@@ -9,14 +9,14 @@ import { useEffect } from "react";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector(store => ({
+  const { items, localId } = useSelector((store) => ({
     items: store.cart.items,
-    localId: store.auth.localId
+    localId: store.auth.localId,
   }));
 
   useEffect(() => {
     if (!localId) {
-      navigate('/auth');
+      navigate("/auth");
     }
   }, [localId, navigate]);
 
@@ -24,43 +24,36 @@ function Checkout() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    dispatch(checkout({
-      localId: localId,
-      items: items,
-      ...Object.fromEntries(formData.entries()),
-    }));
-    navigate('/');
+    const order = { items: items, ...Object.fromEntries(formData.entries()) };
+    dispatch(checkout(order));
+    navigate("/");
   }
-
   return (
     <>
-      <Header
-        title="Checkout"
-        image={image}>
+      <Header className="Header" title="Checkout" image={image} >
         Please enter your information.
       </Header>
 
       <CartDisplay />
-
-      <form onSubmit={onCheckout}>
+      <form className="Checkout" onSubmit={onCheckout}>
         <label>
           First name:
-          <input type="text" name="firstName" required />
+          <input type="text" name="FirstName" required />
         </label>
         <label>
           Last name:
-          <input type="text" name="lastName" required />
+          <input type="text" name="LastName" required />
         </label>
         <label>
           Address:
-          <input type="text" name="address" required />
+          <input type="text" name="Address" required />
         </label>
         <label>
           Phone:
-          <input type="text" name="phone" required />
+          <input type="text" name="Phone" required />
         </label>
 
-        <button>Complete the order</button>
+        <button className="btn-checkout">Complete the order</button>
       </form>
     </>
   );
