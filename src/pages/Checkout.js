@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import image from "../assets/header.jpg";
+import image from "../assets/cart.jpg";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
@@ -9,14 +9,14 @@ import { useEffect } from "react";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector((store) => ({
+  const { items, localId } = useSelector(store => ({
     items: store.cart.items,
-    localId: store.auth.localId,
+    localId: store.auth.localId
   }));
 
   useEffect(() => {
     if (!localId) {
-      navigate("/auth");
+      navigate('/auth');
     }
   }, [localId, navigate]);
 
@@ -24,36 +24,43 @@ function Checkout() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    const order = { items: items, ...Object.fromEntries(formData.entries()) };
-    dispatch(checkout(order));
-    navigate("/");
+    dispatch(checkout({
+      localId: localId,
+      items: items,
+      ...Object.fromEntries(formData.entries()),
+    }));
+    navigate('/');
   }
+
   return (
     <>
-      <Header className="Header" title="Checkout" image={image} >
+      <Header
+        title="Checkout"
+         image={image}>
         Please enter your information.
       </Header>
 
       <CartDisplay />
+
       <form className="Checkout" onSubmit={onCheckout}>
         <label>
           First name:
-          <input type="text" name="FirstName" required />
+          <input type="text" name="firstName" required />
         </label>
         <label>
           Last name:
-          <input type="text" name="LastName" required />
+          <input type="text" name="lastName" required />
         </label>
         <label>
           Address:
-          <input type="text" name="Address" required />
+          <input type="text" name="address" required />
         </label>
         <label>
           Phone:
-          <input type="text" name="Phone" required />
+          <input type="text" name="phone" required />
         </label>
 
-        <button className="btn-checkout">Complete the order</button>
+        <button>Complete the order</button>
       </form>
     </>
   );

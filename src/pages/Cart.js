@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Cart() {
   return (
     <>
-      <Header 
+      <Header
         title="Your Shopping Cart"
         image={image}>
         Please review items in your cart.
@@ -14,7 +14,7 @@ function Cart() {
 
       <CartDisplay actions />
 
-      <Link className="LinkCheckout" to="/checkout">Checkout</Link>
+      <Link className="btn-checkout" to="/checkout">Checkout</Link>
     </>
   );
 }

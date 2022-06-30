@@ -2,12 +2,10 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const checkout = createAsyncThunk('cart/checkout', async (order, thunkAPI) => {
-  const response = 
-  await axios.post('https://diploma-a6d9b-default-rtdb.firebaseio.com/', order);
+  const response = await axios.post('https://diploma-a6d9b-default-rtdb.firebaseio.com/orders.json', order);
 
   return response.data;
 });
-
 
 const cartSlice = createSlice({
   name: "cart",
