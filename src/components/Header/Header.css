@@ -5,8 +5,8 @@
 
 
 .Header img {
-  width: 500px;
-  height: 350px;
+  width: 400px;
+  height: 300px;
   max-width: 100%;
 
 
@@ -27,7 +27,8 @@
   font-weight: bold; */
   margin: 0 auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
+  margin-left: 20rem;
 }
 .Header h1 {
   font-size: 2rem;
@@ -40,5 +41,11 @@
   .Header{
     display: flex;
     flex-wrap: wrap;
+  }
+}
+@media (max-width:600px){
+  .Header section{
+    margin-left: 0;
+    margin: 0 auto;
   }
 }

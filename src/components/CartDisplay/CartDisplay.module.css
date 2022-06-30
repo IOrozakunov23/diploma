@@ -1,6 +1,12 @@
 .CartDisplay .cartItem {
   display:flex;
 }
+.CartDisplay{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 button {
   border: 1px solid #FE5F1E;
   border-radius: 1rem;

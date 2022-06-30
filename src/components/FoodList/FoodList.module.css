@@ -4,4 +4,6 @@
   flex-wrap: wrap;
   max-width: 100%;
   margin-bottom: 2rem;
+  width: 1000px;
+  margin: 0 auto;
 }
