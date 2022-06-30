@@ -1,4 +1,4 @@
-.Auth button {
+.CartButton button {
   border: 1px solid #FE5F1E;
   border-radius: 1rem;
   background-color: #FE5F1E;
@@ -9,7 +9,11 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
-.Auth button:not(:disabled):hover {
+.CartButton{
+  margin: 0 auto;
+  display: flex;
+}
+.CartButton button:not(:disabled):hover {
   background-color: #fd8251;
 }
 button:focus {
